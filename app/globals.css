@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* this layers overrides the base, components, or utilities that comes
+with built in tailwind */
+
+/* you can even change the text color on the base html, however,
+inline styles take priority */
+
+/* chain apply actions are also permitted! */
+@layer base {
+  html {
+    /* @apply bg-slate-600;
+    @apply text-white; */
+    @apply bg-slate-400 text-black font-bold;
+  }
+}
