@@ -15,7 +15,7 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    screens:{
+    screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -30,8 +30,11 @@ const config: Config = {
       '6': '48px',
     },
     extend: {
+      fontSize: {
+        base: '18px',
+      },
       colors: {
-        custom_blue:{
+        custom_blue: {
           "000": "#5accdb",
           "001": "#1f3c40"
         }
