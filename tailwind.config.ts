@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss'
 
+//when you add custom colors, it overrides tailwind
+//therefore you can extend the custom colours as oppose to overriding
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,10 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        custom_blue:{
+          "000": "#5accdb",
+          "001": "#1f3c40"
+        }
       },
     },
   },
