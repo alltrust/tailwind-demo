@@ -57,6 +57,8 @@ export default function Home() {
         <div className="bg-green-300 w-1/2 h-6">!</div>
         <div>
           <Link href={"/flexbox"}>FLEXBOX PAGE</Link>
+          <Link href={'/designsystem'}>DEsign System</Link>
+
         </div>
       </div>
     </>

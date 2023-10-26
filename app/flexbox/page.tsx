@@ -17,6 +17,8 @@ const FlexboxPage = () => {
       </div>
       <Link href={"/"}>Home</Link>
       <Link href={"/container"}>Container</Link>
+      <Link href={'/designsystem'}>DEsign System</Link>
+
     </>
   );
 };

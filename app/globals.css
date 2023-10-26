@@ -17,4 +17,12 @@ inline styles take priority */
     @apply bg-slate-400 text-black font-bold;
     font-family: "Oswald", sans-serif;
   }
+
+  /* design systems */
+  h1{
+    @apply mb-2 text-3xl font-bold;
+  }
 }
+
+
+
