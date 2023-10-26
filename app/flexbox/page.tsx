@@ -6,6 +6,9 @@ const FlexboxPage = () => {
   // or on same div and inserting flex flex-col
 
   //grids are like mui grids
+
+  //Where you decide to have darkmode trigger button, ensure you add logic to 
+  //useEffect hook
   return (
     <>
       <div className="Parent">
