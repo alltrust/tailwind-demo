@@ -30,9 +30,9 @@ const config: Config = {
       '6': '48px',
     },
     extend: {
-      fontSize: {
-        base: '18px',
-      },
+      // fontSize: {
+      //   base: '18px',
+      // },
       margin:{
         2: "16px",
         3: "18px",

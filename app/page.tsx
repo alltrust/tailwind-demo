@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 //text
 //bg
@@ -18,6 +19,7 @@ import Image from "next/image";
 
 //padding with p- space inside elementer
 export default function Home() {
+  
   return (
     <>
       <div>
@@ -53,7 +55,9 @@ export default function Home() {
       <div className="flex w-9/12 ">
         <div className="bg-blue-300  w-1/2 h-6">?</div>
         <div className="bg-green-300 w-1/2 h-6">!</div>
-        <div></div>
+        <div>
+          <Link href={"/flexbox"}>FLEXBOX PAGE</Link>
+        </div>
       </div>
     </>
   );
