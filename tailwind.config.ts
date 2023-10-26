@@ -33,6 +33,11 @@ const config: Config = {
       fontSize: {
         base: '18px',
       },
+      margin:{
+        2: "16px",
+        3: "18px",
+        4: "20px"
+      },
       colors: {
         custom_blue: {
           "000": "#5accdb",

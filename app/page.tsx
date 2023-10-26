@@ -2,6 +2,9 @@ import Image from "next/image";
 
 //text
 //bg
+//p
+//w & max-w; min-w
+//h & max-h;min-h
 
 //custom colours
 //config.ts
@@ -12,6 +15,8 @@ import Image from "next/image";
 
 //to use decoration styles, ensure you have the 'underline' class
 //or whichever class is required for corresponding style
+
+//padding with p- space inside elementer
 export default function Home() {
   return (
     <>
@@ -39,6 +44,16 @@ export default function Home() {
           should have lorem ipsumed
         </p>
         <p className="text-xs note">A little note</p>
+      </div>
+      <div>
+        <p className="p-4 bg-red-500">SOME WORDS with padding</p>
+        <p className="m-4 bg-red-600">SOME WORDS with margin</p>
+
+      </div>
+      <div className="flex w-9/12 ">
+        <div className="bg-blue-300  w-1/2 h-6">?</div>
+        <div className="bg-green-300 w-1/2 h-6">!</div>
+        <div></div>
       </div>
     </>
   );
